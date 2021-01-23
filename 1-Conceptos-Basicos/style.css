@@ -11,11 +11,13 @@
     /* flex-direction: row;
     flex-wrap: wrap; */
 
-    flex-flow: row wrap-reverse;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
 .item {
     background-color: #555;
     border: 2px solid red;
     width: 20%;
+    height: 20%;
 }
