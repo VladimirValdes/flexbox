@@ -16,7 +16,24 @@
     align-content: center;
 }
 
+.container2 {
+    background-color: #333;
+    height: 30vh;
+    width: 400px;
+
+    display: flex;
+    flex-flow: row nowrap;
+
+}
+
 .item {
+    background-color: #555;
+    border: 2px solid red;
+    width: 20%;
+    height: 20%;
+}
+
+.item2 {
     background-color: #555;
     border: 2px solid red;
     width: 20%;
